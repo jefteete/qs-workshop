@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-qs-workshop-default-82fe1e791bf74ccdb488630032aec892
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [VPCStack].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                          ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------  ---------------------------------------------------------------------------------------------
+2022-10-06 18:26:11.868000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-qs-workshop-default-82fe1e791bf74ccdb488630032aec892  The following resource(s) failed to create: [VPCStack].
+2022-10-06 18:26:10.895000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  VPCStack                                                   S3 error: The specified key does not exist.
+                                                                                                                                             For more information check http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+2022-10-06 18:26:10.013000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2022-10-06 18:26:03.291000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-workshop-default-82fe1e791bf74ccdb488630032aec892  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 06. October 2022 06:27PM
+-----------------------------------------------------------------------------
+
